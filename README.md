@@ -4,19 +4,17 @@ using a PINN architecture this model approximates the solution u(t,x) of the Bur
 Burgers equation:
 ${\displaystyle {\frac {\partial u}{\partial t}}+u{\frac {\partial u}{\partial x}}=\nu {\frac {\partial ^{2}u}{\partial x^{2}}}.}$
 
-# 2d graph output of u(t,x): 99.994% accuracy
+# 2d graph output of u(t,x): 99.997% accuracy
 
 v = 0.01/pi
 
-epochs = 100,000
+epochs = 10,000 but competitive results at as low as 5,000
 
 collocation/PDE points = 10000
 
 initial condition + boundary condition points = 100
 
-train time ~ 1 hour on nvidia 1650 ti
-
-final PDE loss = 0.00935 ~ 99.994% accuracy
+final PDE loss = 0.0046 ~ 99.997% accuracy
 
 
-![image](https://github.com/MasterMeep/Burgers-PDE-solver-PINN/assets/51376656/4ab2212e-400f-44b7-a068-522fd3fbcbd5)
+![image](https://github.com/MasterMeep/Burgers-PDE-solver-PINN/assets/51376656/f1bc6e28-ee7b-40a3-b2c5-589a5408ad71)
