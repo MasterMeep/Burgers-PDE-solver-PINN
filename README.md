@@ -1,6 +1,7 @@
 # Burgers-PDE-solver-PINN
-using a PINN network this model creates generates a network which acts as the solution of the burgers differential equations
+using a PINN architecture this model approximates the solution u(t,x) of the Burgers differential equation
 
+Burgers equation:
 ${\displaystyle {\frac {\partial u}{\partial t}}+u{\frac {\partial u}{\partial x}}=\nu {\frac {\partial ^{2}u}{\partial x^{2}}}.}$
 # 2d graph output of u(t,x)
 v = 0.01/pi
