@@ -8,6 +8,10 @@ v = 0.01/pi
 
 epochs = 100,000
 
+collocation/PDE points = 10000
+
+initial condition + boundary condition points = 100
+
 train time ~ 1 hour on nvidia 1650 ti
 
 final PDE loss = 0.00935 ~ 99.994% accuracy
